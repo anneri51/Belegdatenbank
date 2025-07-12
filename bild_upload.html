@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Upload Multiple Images</title>
+</head>
+<body>
+  <h2>Upload Your Images</h2>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+  <form action="http://localhost:5003/upload" method="POST" enctype="multipart/form-data">
+    <input type="file" name="images" accept="image/*" multiple required>
+    <br><br>
+    <button type="submit">Upload Images</button>
+  </form>
+</body>
+</html>
